@@ -4,7 +4,7 @@ import http from 'http';
 
 import app from './app/app.js';
 
-const PORT = normalizePort(process.env.PORT || 2000);
+const PORT = normalizePort(process.env.PORT || 3000);
 app.set('port', PORT);
 
 const server = http.createServer(app);
