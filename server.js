@@ -55,4 +55,5 @@ function onListening()
   let addr = server.address();
   let bind = 'pipe ' + addr;
   debug('Listening on ' + bind);
+  console.log('Server Started');
 }
